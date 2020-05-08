@@ -2,7 +2,7 @@
 Input : [[1,1],[0,0],[-1,-1]] slope = -1/-1 = 1, slope = 1/1 = 1 , -->return True
 
 Steps:
-1. Calculate slow for two points, store slope
+1. Calculate slope for two points, store slope
 2. For new iteration, repeat step 1 but store prevSlope = slope , if prevSlope == slope, repeat step1
 3. if prevSlope != slope , return False 
 4. Else list is exhausted return True
