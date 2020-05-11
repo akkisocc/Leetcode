@@ -5,7 +5,7 @@ Input : [[1,1]] -> -1
 Steps:
 1. Initialize set s to store vertices going to other vertices (v1->v2), s=(v1)
 2. Initialize map m1 to store frequency of ending vertices (Eg. v2)
-3. vertices in s are not the ans, if v2 is in m1 then m1[v2]=0
+3. vertices in s are not the ans, if v2 is in s then m1[v2]=0
 4. find m1[x] == n-1, if exits return x else -1
 
 
